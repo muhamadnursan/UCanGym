@@ -1,0 +1,135 @@
+body{
+    background-color: #000000;
+}
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    font-weight: bold;
+}
+
+/* 
+.jumbotron  {
+    padding-top: 2rem;
+    position: center;
+    color:#fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+} */
+
+.carousel-item {
+    height: 500px;
+
+}
+
+#about{
+    padding-top: 2rem;
+}
+
+
+#contact{
+    padding-top: 5rem;
+}
+
+#projects {
+    background-color: #000000;
+}
+
+
+.col{
+    color: #ffff;
+}
+
+
+/* #gambar {
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    padding-top: 3rem;
+    width: 100%;
+    height: 100%;
+
+} */
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+.button button {
+    border: 0;
+    width: 50%;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #910000;
+}
+
+
+  
+#TESTIMONI {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: white;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .card {
+   
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  
+  .profile {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  .profile img {
+    width: 35%;
+    border-radius: 10px;
+  }
+  
+  .profile p {
+    margin: 10px 0 0 0;
+    width: 100%;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  
+  .profile span {
+    margin-top: 8px;
+    width: 100%;
+    line-height: 25px;
+    color: #999999;
+    font-weight: 800;
+  }
